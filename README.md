@@ -18,3 +18,7 @@ Mail: juancruz.moyanocar@gmail.com
 - Leyria Federico - [Federicoleyria](https://github.com/Federicoleyria "Federicoleyria")
 DNI:
 Mail: fedeleyria2016@gmail.com
+
+- Soto Noelia - [NoeliaSoto](https://github.com/NoeliaSoto "NoeliaSoto")
+DNI: 41253579
+Mail: noeli4.soto@gmail.com
