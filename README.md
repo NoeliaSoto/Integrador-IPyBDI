@@ -12,13 +12,14 @@ DNI: 46129760
 Mail: nico.menon.2@gmail.com
 
 - Moyano Juan Cruz - [jcmoyano](https://github.com/jcmoyano "jcmoyano")
-DNI:
+DNI: 41002250
 Mail: juancruz.moyanocar@gmail.com
 
 - Leyria Federico - [Federicoleyria](https://github.com/Federicoleyria "Federicoleyria")
-DNI:
+DNI: 43523682
 Mail: fedeleyria2016@gmail.com
 
 - Soto Noelia - [NoeliaSoto](https://github.com/NoeliaSoto "NoeliaSoto")
 DNI: 41253579
 Mail: noeli4.soto@gmail.com
+
