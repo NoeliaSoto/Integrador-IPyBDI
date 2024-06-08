@@ -1,4 +1,4 @@
-# #** Proyecto Integrador - Sistema de Gestión de RR.HH
+ #** Proyecto Integrador - Sistema de Gestión de RR.HH
 ### ## # Descripción
 El proyecto consiste en desarrollar un sistema de gestión de Recursos Humanos (RRHH) que optimice procesos como la visualización y administración de empleados, departamentos, proyectos, tareas y clientes. Su objetivo es centralizar y organizar la información, mejorar la colaboración entre departamentos y empleados, y aumentar la eficiencia operativa y la gestión del tiempo, para facilitar la toma de decisiones.
 
