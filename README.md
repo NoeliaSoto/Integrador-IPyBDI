@@ -24,3 +24,9 @@ DNI: 41253579
 Mail: noeli4.soto@gmail.com
 
 ## Modularizacion del codigo
+
+### main.py
+Este archivo será nuestro archivo principal ya que tendra todos las funciones tanto en el mismo archivo, como la bienvenida y la autentificacion como archivos importados como los archivos .py donde realizaremos el crud.
+
+### Conexion_database
+
