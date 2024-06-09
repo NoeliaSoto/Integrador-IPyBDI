@@ -1,12 +1,12 @@
 # BuildHR Manager
 
-BuildHR Manager es un sistema integral de gestión de recursos humanos diseñado para optimizar y simplificar los procesos de administración de personal en empresas constructoras. Este sistema ofrece una solución completa para la gestión eficiente del talento humano.
+BuildHR Manager es un sistema que apunta a una gestión integral de recursos humanos diseñado para optimizar y simplificar los procesos de administración de personal en empresas constructoras. Este sistema ofrece una solución completa para la gestión eficiente del talento humano.
 
 ## Descripción del Proyecto
 
 **Proyecto Integrador - Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial - Cohorte 2024**
 
-BuildHR Manager es desarrollado como parte del Proyecto Integrador para la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial, Cohorte 2024.
+Como parte del "Proyecto Integrador" para la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial, Cohorte 2024, nos propusimos a desarrollar un crud para la gestión de tareas de los empleados de una constructora. Idealmente el objetivo sería cumplir con la mayor parte posible del sistema integral en su totalidad pero vamos a cumplir con los entregables según el tiempo estipulado.
 
 ### Asignaturas
 
@@ -45,7 +45,13 @@ Este archivo se realizara la accion del crud de modificar cualquier columna del 
 ### Eliminar_tareas
 Este archivo se realizara la accion del crud de eliminar tareas y todas las tablas relacionada con ella, se identificara al igual que el ver tareas y modificar tareas, através del Id de tareas.
 
-## Funcionalidades Clave
+## Funcionalidades Clave del CRUD a desarrollar para las entregas:
+
+- Crear nuevas tareas y asignarlas según el empleado y sus datos correspondientes
+- Modificar y/o borrar tareas según la situación la requiera
+- Visualizar un listado de todas las tareas generadas
+
+## Funcionalidades Clave del Sistema Integral - en un hipotético avance del sistema - :
 
 Algunas funcionalidades claves que ofrece BuildHR Manager son:
 
