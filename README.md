@@ -11,7 +11,7 @@ Como parte del "Proyecto Integrador" para la Tecnicatura Superior en Ciencia de 
 ### Asignaturas
 
 - Base de Datos I [VER diagramas]((https://github.com/NoeliaSoto/Integrador-IPyBDI/tree/main/diagrama_ER))
-- Ética y Deontología Profesional [VER wiki]((https://github.com/NoeliaSoto/Integrador-IPyBDI/wiki))
+- Ética y Deontología Profesional [Ver Wiki](https://github.com/NoeliaSoto/Integrador-IPyBDI/wiki "Ver WiKi")
 - Introducción a la Programación [VER código/pseudocódigo]([#](https://github.com/NoeliaSoto/Integrador-IPyBDI/tree/main/PPython))
 
 
