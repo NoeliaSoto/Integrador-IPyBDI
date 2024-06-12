@@ -1,7 +1,7 @@
 from borrarTarea import borrar_tarea
 from modificarTarea import modificar_tarea
 from crearTarea import crear_tarea
-from verTareas import ver_tarea
+from verTareas import consulta_database
 import conexion_database
 
 def mensaje_bienvenida():
@@ -27,7 +27,7 @@ def menu_opciones():
         if opcion == "1":
             crear_tarea()
         elif opcion == "2":
-            ver_tarea()
+            consulta_database()
         elif opcion == "3":
             modificar_tarea()
         elif opcion == "4":
@@ -65,4 +65,10 @@ def autenticar_usuario():
         print("Bienvenido,", nombre_usuario)
         # Mostrar función del menú
         menu_opciones()
-autenticar_usuario()
+
+
+    
+    
+        
+if __name__ == "__main__":
+    autenticar_usuario()
