@@ -14,7 +14,7 @@ Como parte del "Proyecto Integrador" para la Tecnicatura Superior en Ciencia de 
      - [Ver Diagrama Entidad - Relación »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/BD/diagramas/Diagrama_ER.jpg "Ver Diagrama Entidad - Relación »")
      - [Ver Diagrama Crow's Foot »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/BD/diagramas/Diagrama_CF.jpg.png "Ver Diagrama Crow's Foot »")
 - Ética y Deontología Profesional
-     - [Ver Wiki »](https://github.com/NoeliaSoto/Integrador-IPyBDI/wiki "Ver Wiki »")
+     -  [Ver Wiki »](https://github.com/NoeliaSoto/Integrador-IPyBDI/wiki/%C3%89tica-y-Deontolog%C3%ADa-Profesional "Ver Wiki »")
 - Introducción a la Programación
      - [Ver pseudocódigo »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/recursosHumanosConstructora.psc "Ver pseudocódigo »")
 
