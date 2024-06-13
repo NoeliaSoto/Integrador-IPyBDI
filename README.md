@@ -10,10 +10,13 @@ Como parte del "Proyecto Integrador" para la Tecnicatura Superior en Ciencia de 
 
 ### Asignaturas
 
-- Base de Datos I [VER diagramas]((https://github.com/NoeliaSoto/Integrador-IPyBDI/tree/main/diagrama_ER))
-- Ética y Deontología Profesional | [Ver Wiki](https://github.com/NoeliaSoto/Integrador-IPyBDI/wiki "Ver WiKi")
-- Introducción a la Programación [VER código/pseudocódigo]([#](https://github.com/NoeliaSoto/Integrador-IPyBDI/tree/main/PPython))
-
+- Base de Datos I
+     -[Ver Diagrama Entidad - Relación »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/BD/diagramas/Diagrama_ER.jpg "Ver Diagrama Entidad - Relación »")
+     -[Ver Diagrama Crows Foot »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/BD/diagramas/Diagrama_CF.jpg.png "Ver Diagrama Crows Foot »")
+- Ética y Deontología Profesional
+     - [Ver Wiki »](https://github.com/NoeliaSoto/Integrador-IPyBDI/wiki "Ver Wiki »")
+- Introducción a la Programación
+     - [Ver pseudocódigo »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/recursosHumanosConstructora.psc "Ver pseudocódigo »")
 
 ### Autores
 
