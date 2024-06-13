@@ -1,8 +1,4 @@
-from borrarTarea import borrar_tarea
-from modificarTarea import modificar_tarea
-from crearTarea import crear_tarea
-from verTareas import consulta_database
-import conexion_database
+from crud_empleados import crud_empleados
 
 def mensaje_bienvenida():
     mensaje="Bienvenido al sistema de gestión de RRHH de Constructora Enju Fenoni"
@@ -13,25 +9,23 @@ def mensaje_bienvenida():
 mensaje_bienvenida()
 
 def menu_opciones():
-    print("Seleccione una opción:")
-    print("1. Crear tarea")
-    print("2. Ver tarea")
-    print("3. Modificar tarea")
-    print("4. Eliminar tarea")
-    print("5. Salir del programa")
-    
-    
-    
-    while True:
+
+ while True:
+        print("Seleccione la tabla en la que quieras trabajar:")
+        print("1. Tabla Empleados")
+        print("2. Tabla Clientes")
+        print("3. Tabla Departamentos")
+        print("4. Tabla Proyectos")
+        print("5. Tabla Tareas")
         opcion = input()
         if opcion == "1":
-            crear_tarea()
+            crud_empleados()
         elif opcion == "2":
-            consulta_database()
+            
         elif opcion == "3":
-            modificar_tarea()
+            
         elif opcion == "4":
-            borrar_tarea()
+           
         elif opcion == "5":
             print("Gracias por usar nuestro sistema.")
             break
@@ -40,14 +34,18 @@ def menu_opciones():
       
 def autenticar_usuario():
     # Datos registrados en el sistema
-    nombre_usuario = "jfenoni"
-    contrasena = "feno123"
+    nombre_usuario = "elon"
+    contrasena = "123"
     intentos = 0  # Inicializa el contador de intentos
 
     usuario_ingresado = input("Por favor, ingrese su usuario: ") #verifica el nombre de usuario
     while usuario_ingresado != nombre_usuario:
         print("Usuario no registrado")
         usuario_ingresado = input("Por favor, ingrese su usuario: ")
+        intentos += 1  # Incrementa el contador de intentos
+        if intentos >= 3:
+                print("Usuario bloqueado, por favor comuníquese con el administrador del sistema")
+                break
 
     if usuario_ingresado == nombre_usuario: #si el usuario coincide verifica la contraseña incorrecta en 3 intentos y bloquea
         contrasena_ingresada = ""
