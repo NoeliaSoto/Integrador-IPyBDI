@@ -1,4 +1,4 @@
-# BuildHR Manager
+![image](https://github.com/NoeliaSoto/Integrador-IPyBDI/assets/169372015/06f46ab7-d267-42c9-a341-60a042e2c4f3)# BuildHR Manager
 
 BuildHR Manager es un sistema que apunta a una gestión integral de recursos humanos diseñado para optimizar y simplificar los procesos de administración de personal en empresas constructoras. Este sistema ofrece una solución completa para la gestión eficiente del talento humano.
 
@@ -6,17 +6,29 @@ BuildHR Manager es un sistema que apunta a una gestión integral de recursos hum
 
 **Proyecto Integrador - Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial - Cohorte 2024**
 
-Como parte del "Proyecto Integrador" para la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial, Cohorte 2024, nos propusimos a desarrollar un crud para la gestión de tareas de los empleados de una constructora. Idealmente el objetivo sería cumplir con la mayor parte posible del sistema integral en su totalidad pero vamos a cumplir con los entregables según el tiempo estipulado.
+Como parte del "Proyecto Integrador" para la Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial, Cohorte 2024, nos propusimos a desarrollar una base de datos que apunta principalmente a la gestión de tareas de los empleados de una constructora. Para esto creamos el CRUD (Create, Read, Update, Delate o en español Crear, Leer, Actualizar y Borrar) de las 5 tablas que la componen para así poder interactuar con las mismas que a partir de los archivos que se muestran en este documento, cumpla con las funcionalidades planteadas a continuacion
 
-### Asignaturas
+### Asignaturas y sus respectivos contenidos
 
 - Base de Datos I
      - [Ver Diagrama Entidad - Relación »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/BD/diagramas/Diagrama_ER.jpg "Ver Diagrama Entidad - Relación »")
      - [Ver Diagrama Crow's Foot »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/BD/diagramas/Diagrama_CF.jpg.png "Ver Diagrama Crow's Foot »")
+     - [Ver Creación de Base de Datos o Schema »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/BD/database_scheme_creation.sql "Ver Creación Base de Datos »")
+     - [Ver Inserción de Datos »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/BD/database_insertion_data.sql "Ver Inserción de Datos »")
+     - [Ver Consultas en Base de Datos »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/BD/database_insertion_data.sql "Ver Inserción de Datos »")
+
+
 - Ética y Deontología Profesional
      -  [Ver Wiki »](https://github.com/NoeliaSoto/Integrador-IPyBDI/wiki/%C3%89tica-y-Deontolog%C3%ADa-Profesional "Ver Wiki »")
+
+       
 - Introducción a la Programación
      - [Ver pseudocódigo »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/recursosHumanosConstructora.psc "Ver pseudocódigo »")
+     - [Ver CRUD tabla Empleados »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/Python/crud_empleados.py "Ver CRUD tabla Empleados »")
+     - [Ver CRUD tabla Proyectos »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/Python/crud_proyecto.py "Ver CRUD tabla Proyectos »")
+     - [Ver CRUD tabla Clientes »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/Python/crud_clientes.py "Ver CRUD tabla Clientes »")
+     - [Ver CRUD tabla Departamentos »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/Python/crud_departamentos.py "Ver CRUD tabla Departamentos »")
+     - [Ver CRUD tabla Tareas »](https://github.com/NoeliaSoto/Integrador-IPyBDI/blob/main/Python/crud_tareas.py "Ver CrRUD tabla Tareas »")
 
 
 ### Autores
