@@ -42,33 +42,19 @@ Como parte del "Proyecto Integrador" para la Tecnicatura Superior en Ciencia de 
 
 ## Modularizacion del codigo
 
+## Modularizacion del codigo
+
 ### main.py
-Este archivo será nuestro archivo principal ya que tendra todos las funciones tanto en el mismo archivo, como la bienvenida y la autentificacion como archivos importados como los archivos .py donde realizaremos el crud.
+Este archivo es nuestro archivo principal ya que tendra todos las funciones tanto en el mismo archivo, como la bienvenida y la autentificacion como archivos importados como los archivos .py donde realizaremos el CRUD.
 
 ### Conexion_database
 Este archivo contendra la conexion a la base de datos myysql, deberemos importar las correspondiente librerias y realizar la conexion exitosa. a este archivo se le debera imporatr a los demas archivos del crud.
 
-### Crear_tareas
-Este archivo se realizara la accion del crud de crear nuevas tareas.
+### CRUD_tabla
+Estos archivos contienen los CRUD de las tablas que nos permiten interactuar con la que se haya elegido, por ejemplo CRUD_clientes
 
-### Ver_tareas
-Este archivo se realizara la accion del crud de ver las tareas realizadas en conjunto con la demas información en el campo con fecha de inicio y fecha de finalizacion, se identificara  através del Id de tareas.
 
-### Modificar_tareas
-Este archivo se realizara la accion del crud de modificar cualquier columna del campo tareas con el id de tareas.
-
-### Eliminar_tareas
-Este archivo se realizara la accion del crud de eliminar tareas y todas las tablas relacionada con ella, se identificara al igual que el ver tareas y modificar tareas, através del Id de tareas.
-
-## Funcionalidades Clave del CRUD a desarrollar para las entregas:
-
-- Crear nuevas tareas y asignarlas según el empleado y sus datos correspondientes
-- Modificar y/o borrar tareas según la situación la requiera
-- Visualizar un listado de todas las tareas generadas
-
-## Funcionalidades Clave del Sistema Integral - en un hipotético avance del sistema - :
-
-Algunas funcionalidades claves que ofrece BuildHR Manager son:
+## Funcionalidades Clave del sistema:
 
 ### Gestión de Empleados
 
@@ -79,22 +65,15 @@ Algunas funcionalidades claves que ofrece BuildHR Manager son:
 ### Gestión de Departamentos y Proyectos
 
 - Creación y asignación de departamentos y equipos de trabajo.
-- Seguimiento detallado de proyectos y tareas asignadas a cada departamento o equipo.
+- Seguimiento detallado de proyectos.
 - Asignación de recursos humanos según las necesidades específicas de cada proyecto.
+- Gestión de clientes según proyecto al que pertenecen
 
-### Gestión de Capacitación y Desarrollo
+### Gestión de Tareas
+- Asignación de tareas según proyectos y clientes
+- Visualización y seguimiento de las tareas de los empleados según el proyecto asignado
+- Previsión de plazos para cumplir las tareas
 
-- Registro de actividades de capacitación, cursos realizados y certificaciones obtenidas.
-
-### Gestión de Ausencias y Vacaciones
-
-- Registro y seguimiento de ausencias, licencias y vacaciones de los empleados.
-- Programación de vacaciones y gestión de calendarios de ausencias.
-
-### Análisis y Reportes
-
-- Generación de informes personalizados sobre datos de recursos humanos.
-- Visualización de datos en tiempo real para facilitar la toma de decisiones estratégicas y la planificación.
 
 ## Análisis EPS
 
