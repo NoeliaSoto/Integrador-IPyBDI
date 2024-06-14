@@ -136,7 +136,7 @@ def eliminar_datos_empleados():
 
 def crud_empleados():
     while True:
-        print("Elige la opción que deseas realizar: 1. Ver datos de la tabla empleados. 2. Insertar datos en la tabla empleados. 3. Modificar datos de la tabla empleado. 4. Eliminar datos de la tabla empleados")
+        print("Elige la opción que deseas realizar:\n '1': Ver datos de la tabla empleados.\n '2': Insertar datos en la tabla empleados.\n '3': Modificar datos de la tabla empleados.\n '4': Eliminar datos de la tabla empleados")
         opcion = input() 
     
         if opcion == "1":
@@ -151,4 +151,4 @@ def crud_empleados():
             print("Opción no válida")
             break
 
-crud_empleados()
+

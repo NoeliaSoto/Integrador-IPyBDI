@@ -8,7 +8,7 @@ def conexion():
                 user='root',
                 password='valeria11',
                 database='mydb')
-        print("Conexion exitosa")
+
         return con
     except mysql.connector.Error as e:
         print(f"Problemas de conexion {e}")

@@ -117,7 +117,7 @@ def eliminar_datos_departamento():
 
 def crud_departamento():
     while True:
-        print("Elige la opción que deseas realizar:\n 1. Ver datos de la tabla departamento.\n 2. Insertar datos en la tabla departamento.\n 3. Modificar datos de la tabla departamento.\n 4. Eliminar datos de la tabla departamento")
+        print("Elige la opción que deseas realizar:\n '1': Ver datos de la tabla departamento.\n '2': Insertar datos en la tabla departamento.\n '4': Modificar datos de la tabla departamento.\n '5': Eliminar datos de la tabla departamento")
         opcion = input() 
     
         if opcion == "1":
@@ -132,4 +132,4 @@ def crud_departamento():
             print("Opción no válida")
             break
 
-crud_departamento()
+

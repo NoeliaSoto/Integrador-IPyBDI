@@ -7,7 +7,7 @@ def ver_datos_proyectos():
         cursor = obtener_cursor(con)
         if cursor:
             try:
-                cursor.execute("SELECT * FROM proyecto")
+                cursor.execute("SELECT * FROM proyecto WHERE fecha_finalizacion IS NULL;")
                 for row in cursor:
                     print(row)
             except Exception as e:
@@ -129,7 +129,7 @@ def validar_fecha(fecha):
 
 def crud_proyectos():
     while True:
-        print("Elige la opción que deseas realizar: 1. Ver datos de la tabla proyectos. 2. Insertar datos en la tabla proyectos. 3. Modificar datos de la tabla proyectos. 4. Eliminar datos de la tabla proyectos.")
+        print("Elige la opción que deseas realizar:\n '1': Ver datos de la tabla proyectos en curso.\n '2': Insertar datos en la tabla proyectos.\n '3': Modificar datos de la tabla proyectos.\n '4': Eliminar datos de la tabla proyectos.")
         opcion = input().strip()
     
         if opcion == "1":
@@ -144,4 +144,3 @@ def crud_proyectos():
             print("Opción no válida")
             break
 
-crud_proyectos()
