@@ -1,4 +1,3 @@
-![image](https://github.com/NoeliaSoto/Integrador-IPyBDI/assets/169372015/06f46ab7-d267-42c9-a341-60a042e2c4f3)# BuildHR Manager
 
 BuildHR Manager es un sistema que apunta a una gestión integral de recursos humanos diseñado para optimizar y simplificar los procesos de administración de personal en empresas constructoras. Este sistema ofrece una solución completa para la gestión eficiente del talento humano.
 
