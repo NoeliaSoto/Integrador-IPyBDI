@@ -140,6 +140,19 @@ Este análisis detalla cómo las diferentes entradas (nombre de usuario, contras
    - Mensajes de confirmación o resultados de la acción realizada.
    - Regreso al menú principal para seleccionar otra opción o salir del sistema.
 
+## Archivos esenciales y uso de la aplicación
+
+Este repositorio contiene varios archivos esenciales para el funcionamiento de BuildHR Manager, estos son:
+
+1. **main.py**: Archivo principal que gestiona la interfaz de usuario, incluyendo la bienvenida, autenticación y el menú principal.
+2. **conexion_database.py**: Maneja la conexión a la base de datos MySQL, necesaria para que otros archivos interactúen con la base de datos.
+3. **crud_empleados.py**: Permite crear, leer, actualizar y borrar registros de empleados.
+4. **crud_proyecto.py**: CRUD para la gestión de proyectos.
+5. **crud_clientes.py**: CRUD para la gestión de clientes.
+6. **crud_departamentos.py**: CRUD para la gestión de departamentos.
+7. **crud_tareas.py**: CRUD para la gestión de tareas.
+
+Para usar la aplicación, se deben instalar Visual Studio Code, MySQL y MySQL Workbench. Luego, se clona el repositorio y se ejecutan los scripts SQL proporcionados para crear y poblar la base de datos. Finalmente, se ejecuta el archivo `main.py` desde Visual Studio Code. El sistema pedirá un nombre de usuario y contraseña para acceder, y mostrará un menú principal para gestionar empleados, proyectos, clientes, departamentos y tareas, permitiendo a cualquier usuario interactuar con la aplicación sin necesidad de conocimientos previos en programación.
 
 
 
