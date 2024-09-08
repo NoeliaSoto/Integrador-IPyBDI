@@ -1,4 +1,6 @@
-<align=center>hola<>
+<div style="text-align: center;">
+    hola
+</div>
 BuildHR Manager es un sistema que apunta a una gestión integral de recursos humanos diseñado para optimizar y simplificar los procesos de administración de personal en empresas constructoras. Este sistema ofrece una solución completa para la gestión eficiente del talento humano.
 
 ## Descripción del Proyecto
